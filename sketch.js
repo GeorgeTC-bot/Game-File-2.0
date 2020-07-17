@@ -14,7 +14,7 @@ var loc;
 var frame;
 
 function preload(){
-  var blocksloc = "assets/blocks/";
+  var blocksloc = "blocks/";
   sprites[0].push(loadImage(blocksloc+"stone.png"));//0
   sprites[0].push(loadImage(blocksloc+"stoneD.png"));//1
   sprites[0].push(loadImage(blocksloc+"stoneLD.png"));//2
